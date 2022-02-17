@@ -2,7 +2,7 @@ from class_calc import Calculator
 
 # program untuk menjalankan calculator
 while True:
-        
+       
         user_input = input("Tuliskan nilai yang ingin dihitung: ")
         user_input = user_input.strip().split(" ")
                 
@@ -19,3 +19,4 @@ while True:
         if lanjut.lower()[0] == 'y':
             continue
         else: break
+print('Terimakasih')
